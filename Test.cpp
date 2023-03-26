@@ -9,6 +9,9 @@ using namespace doctest;
 #include "sources/player.hpp"
 using namespace ariel;
 
+// used this website for testing void functions:
+// https://stackoverflow.com/questions/3803465/how-to-capture-stdout-stderr-with-googletest
+
 TEST_CASE("Start")
 {
     Player p1("Alice");
